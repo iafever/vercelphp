@@ -1,4 +1,5 @@
 <?php
-  echo 'Run on vercel.com!<br/>';
+  $name = $_GET['name'];
+  echo $name.' Run on vercel.com!<br/>';
   phpinfo();
 ?>
