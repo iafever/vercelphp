@@ -6,6 +6,6 @@
   },
   "routes": [
     { "src": "/(.*)",  "dest": "/api/index.php" },
-    { "src": "/pg/(.*)",  "dest": "/api/pg/pgsql.php" }
+    { "src": "/pg/(.*)",  "dest": "/api/pg/index.php" }
   ]
 }
