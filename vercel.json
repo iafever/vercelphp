@@ -5,6 +5,7 @@
     }
   },
   "routes": [
+    { "src": "/login/(.*)",  "dest": "/api/login.php" },
     { "src": "/pg/(.*)",  "dest": "/api/pgsql.php" },
     { "src": "/(.*)",  "dest": "/api/$1" }
   ]
