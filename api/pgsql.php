@@ -1,3 +1,3 @@
 <?php
-  echo 'Test postgreSQL';
+  echo 'Test new postgreSQL';
 ?>
